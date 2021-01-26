@@ -171,10 +171,19 @@ body {
 
 .text-block {
     display: flex;
-    background-color: white;
+    background-color: black;
+    color: white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.text-block > h1 {
+    margin-top: 25px;
+}
+
+.text-block > p {
+    margin-bottom: 55px;
 }
 
 .logos {
@@ -189,11 +198,13 @@ body {
 
 .text-image {
     width: 100%;
+    background-color: ;
 }
 
 .logos-image {
     width: 60%;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 70px;
 }
 
 .text-block-2 {
@@ -206,17 +217,63 @@ body {
     justify-content: center;
 }
 
+.text-block-2 > h1 {
+    margin-top: 25px;
+}
+
+.text-block-2 > p {
+    margin-bottom: 55px;
+}
+
 .cakes {
     width: 100%;
     padding-top: 40px;
+    background-color: rgb(248, 224, 185);
 }
 
-.cta {
-    background: linear-gradient(162.48deg, #C0FFFB 15%, #FFBFED 99.3%);
-    mix-blend-mode: normal;
-    z-index: -200;
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(255, 245, 232);
+    width: 100%;
 }
 
+.cta-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border: 15px solid rgb(253, 236, 209);
+    width: 80%;
+    height: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cta-image {
+    width: 87%;
+    margin-bottom: 50px;
+}
+
+.cta-message > h1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 5px;
+}
+
+.cta-message > p {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 30px;
+}
 .crystal-block-container {
     position: relative;
     display: flex;
@@ -257,7 +314,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(46, 46, 46, 1);
+    background: rgb(240, 240, 240);
 }
 
 .doublechocolate-container {
