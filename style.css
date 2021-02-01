@@ -1,3 +1,8 @@
+/* Roboto text import from Google.*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+/* Lato text import from Google.*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: #1E1010;
     background: lightblue;
 }
 
@@ -26,18 +31,29 @@ h1, p {
 }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1;
     line-height: 1.4;
 }
 
 p {
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1;
     line-height: 1.4;
 }
 
+a {
+    text-decoration: underline;
+
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-width: 375px;
     max-width: 375px;
     border: 1px solid lightcoral;
@@ -46,10 +62,17 @@ body {
     z-index: 1;
 }
 
-
-
-.fixed-button {
-
+.menu-button {
+    position: fixed;
+    bottom: 0;    
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    width: 300px;
+    height: 75px;
+    border: 5px solid white;
+    backdrop-filter: blur(7px);
+    border-radius: 1%;
 }
 
 .menu-block {
@@ -94,6 +117,7 @@ body {
     background-color: black;
     width: 100%;
     height: 10%;
+    padding-bottom: 50px;
 }
 
 .arrow {
@@ -139,6 +163,7 @@ body {
     flex-direction: column;
     padding-top: 30px;
     align-items: center;
+    padding-bottom: 40px;
     justify-content: center;
     color: white;
     background-color: black;
@@ -169,6 +194,32 @@ body {
     padding-right: 12px;
 }
 
+.white-text-block-button {
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    margin-right: 170px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4;
+}
+
+.black-text-block-button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    margin-right: 170px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4;
+}
+
 .text-block {
     display: flex;
     background-color: black;
@@ -191,14 +242,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
-    margin-top: 10px;
-    padding-top: 10px;
+    background-color: #D1F0FF;
+    padding-top: 20px;
 }
 
 .text-image {
-    width: 100%;
-    background-color: ;
+    width: 92%;
 }
 
 .logos-image {
@@ -210,8 +259,8 @@ body {
 .text-block-2 {
     display: flex;
     flex-direction: column;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -226,8 +275,9 @@ body {
 }
 
 .cakes {
-    width: 100%;
-    padding-top: 40px;
+    width: 92%;
+    margin-top: 40px;
+    padding-top: 20px;
     background-color: rgb(248, 224, 185);
 }
 
@@ -255,7 +305,7 @@ body {
 }
 
 .cta-image {
-    width: 87%;
+    width: 92%;
     margin-bottom: 50px;
 }
 
@@ -274,6 +324,8 @@ body {
     padding-right: 35px;
     margin-bottom: 30px;
 }
+
+
 .crystal-block-container {
     position: relative;
     display: flex;
@@ -406,7 +458,8 @@ body {
 }
 
 .cta-banner > p {
-    font-size: 12px;
+    color:  rgb(255, 182, 182);
+    font-size: 15px;
     margin-top: 50px;
     font-weight: 600;
 }
@@ -445,7 +498,7 @@ body {
     color: rgb(25, 25, 25);
     width: 100%;
     height: 650px;
-    background: lightblue;
+    background:  #D1F0FF;
     background-repeat: no-repeat;
     background-size: 120% 120%;
 }
@@ -464,7 +517,7 @@ body {
     color: rgb(25, 25, 25);
     width: 100%;
     height: 650px;
-    background: rgb(255, 209, 219);
+    background: rgb(255, 221, 228);
     background-repeat: no-repeat;
     background-size: 120% 120%;
 }
